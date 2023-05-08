@@ -1,0 +1,38 @@
+
+spring:
+  profiles:
+    active: food   #选择文档
+
+--- #文档1开始
+spring:
+  profiles: food
+server:
+  port: 8090
+#bean
+user:
+  id: 1
+  username: 曹梦龙1
+  password: 123456
+
+#bean
+food:
+  hanbao: 汉堡1
+  shutiao: 薯条1
+#mysql
+datasource:
+  url: jdbc:mysql://localhost:8090/test
+  username: root
+  password: 123456
+
+---
+#文档2开始 freemarker模板
+spring:
+  profiles: freemarker
+  mvc:
+    view:
+      #文件位置 不能更改
+      prefix: /templates/
+      #文件后缀
+      suffix: .ftl
+server:
+  port: 8080
