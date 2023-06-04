@@ -13,8 +13,8 @@ public class ThymeleafContorller {
     public String tlf(Model model){
         System.out.println("tlf方法");
         User user=new User();
-        user.setId(1);
-        user.setName("和审评");
+        user.setUid(1);
+        user.setUsername("和审评");
         user.setPassword("123456");
         model.addAttribute("user",user);
         return "thymeleaf/thymeleaf";

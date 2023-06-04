@@ -1,0 +1,28 @@
+2023-06-04 20:08:06.600  INFO 13852 --- [restartedMain] com.cml.DemoApplication                  : Starting DemoApplication on LAPTOP-CFT9G5MJ with PID 13852 (D:\test\GitDemo\springboot-demo-01\target\classes started by LENOVO in D:\test\GitDemo)
+2023-06-04 20:08:06.600  INFO 13852 --- [restartedMain] com.cml.DemoApplication                  : The following profiles are active: food
+2023-06-04 20:08:06.780  INFO 13852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-04 20:08:06.780  INFO 13852 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-04 20:08:07.820  INFO 13852 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$23b3084f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-04 20:08:08.100  INFO 13852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-06-04 20:08:08.130  INFO 13852 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-04 20:08:08.130  INFO 13852 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2023-06-04 20:08:08.225  INFO 13852 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-04 20:08:08.225  INFO 13852 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1445 ms
+2023-06-04 20:08:08.465  INFO 13852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-04 20:08:08.580  INFO 13852 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-04 20:08:08.620  WARN 13852 --- [restartedMain] c.b.m.core.toolkit.TableInfoHelper       : Warn: Could not find @TableId in Class: com.cml.domain.User.
+2023-06-04 20:08:09.055  INFO 13852 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2023-06-04 20:08:09.160  INFO 13852 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-04 20:08:09.200  INFO 13852 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-04 20:08:09.632  INFO 13852 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2023-06-04 20:08:09.650  INFO 13852 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2023-06-04 20:08:09.680  INFO 13852 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2023-06-04 20:08:09.810  INFO 13852 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: selectUserUsingGET_1
+2023-06-04 20:08:09.850  INFO 13852 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-06-04 20:08:09.850  INFO 13852 --- [restartedMain] com.cml.DemoApplication                  : Started DemoApplication in 3.62 seconds (JVM running for 4.485)
+2023-06-04 20:08:13.750  INFO 13852 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04 20:08:13.751  INFO 13852 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-04 20:08:13.757  INFO 13852 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-06-04 20:11:04.010  INFO 13852 --- [Thread-5] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-04 20:11:04.012  INFO 13852 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-04 20:11:04.029  INFO 13852 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

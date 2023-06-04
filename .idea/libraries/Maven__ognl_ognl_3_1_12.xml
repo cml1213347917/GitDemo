@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ognl:ognl:3.1.12">
+    <CLASSES>
+      <root url="jar://E:/ideaIU-2019.2.2/maven/repository/ognl/ognl/3.1.12/ognl-3.1.12.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/ideaIU-2019.2.2/maven/repository/ognl/ognl/3.1.12/ognl-3.1.12-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/ideaIU-2019.2.2/maven/repository/ognl/ognl/3.1.12/ognl-3.1.12-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

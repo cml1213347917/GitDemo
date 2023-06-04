@@ -1,31 +1,20 @@
 package com.cml.domain;
 
-public class User {
-    private  Integer id;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.io.Serializable;
+
+@Data@AllArgsConstructor@NoArgsConstructor
+@ApiModel("用户实体类")
+public class User implements Serializable {
+    @ApiModelProperty("用户id")
+    private  Integer uid;
+    @ApiModelProperty("用户名")
     private  String username;
+    @ApiModelProperty("用户密码")
     private  String password;
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return username;
-    }
-
-    public void setName(String username) {
-        this.username = username;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
 }

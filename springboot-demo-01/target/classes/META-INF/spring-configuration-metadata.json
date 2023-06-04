@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "food",
+      "type": "com.cml.config.FoodConfig",
+      "sourceType": "com.cml.config.FoodConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "food.hanbao",
+      "type": "java.lang.String",
+      "sourceType": "com.cml.config.FoodConfig"
+    },
+    {
+      "name": "food.shutiao",
+      "type": "java.lang.String",
+      "sourceType": "com.cml.config.FoodConfig"
+    }
+  ],
+  "hints": []
+}
